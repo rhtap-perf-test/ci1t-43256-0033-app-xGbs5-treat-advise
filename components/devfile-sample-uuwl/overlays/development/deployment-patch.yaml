@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-uuwl
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/stonesoup_perfscale/ci1t-43256-0033-tenant/ci1t-43256-0033-app/devfile-sample-uuwl@sha256:bc3ec96a64ce2a41c155444cd559e1e5005864e5d23872ebd5dbc6c2455b46b4
+        name: my-nodejs
+        resources: {}
+status: {}
